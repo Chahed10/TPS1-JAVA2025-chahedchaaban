@@ -31,7 +31,6 @@ public class app1 {
 
         System.out.print("Entrez l'entier pair X à rechercher: ");
         int X = sc.nextInt();
-
         boolean test= false;
         for (int i = 0; i < nl; i++) {
             for (int j = 0; j < nc; j++) {

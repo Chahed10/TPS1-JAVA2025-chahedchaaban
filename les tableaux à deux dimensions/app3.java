@@ -23,7 +23,7 @@ public class app3 {
             int sommeLigne = 0;
             for (int j = 0; j < n2; j++) {
                 System.out.print("M[" + i + "][" + j + "] = ");
-                M[i][j] = sc.nextInt();
+                M[i][j] = sc.nextInt(); 
                 sommeLigne += M[i][j];
             }
             T[i] = sommeLigne;
